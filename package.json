@@ -1,0 +1,24 @@
+{
+  "name": "hls-browser-player",
+  "version": "1.0.0",
+  "description": "HLS Browser Player",
+  "main": "app.js",
+  "devDependencies": {
+    "express": "^4.16.2",
+    "hls.js": "^0.8.9",
+    "opn": "^5.2.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ioki-pwozny/hls-browser-player.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ioki-pwozny/hls-browser-player/issues"
+  },
+  "homepage": "https://github.com/ioki-pwozny/hls-browser-player#readme"
+}

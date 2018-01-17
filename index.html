@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <title>HLS Browser Player</title>
+        <script src="node_modules/hls.js/dist/hls.min.js" defer></script>
+        <script src="player.js" defer></script>
+        <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        video{
+            height: 90%;
+        }
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+        }
+        </style>
+    </head>
+    <body>
+        <div>
+            <video id="video"></video>
+        </div>
+    </body>
+</html>
